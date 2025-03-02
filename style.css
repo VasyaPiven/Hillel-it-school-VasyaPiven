@@ -42,59 +42,71 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: "Cera Pro";
+  src: url(./font/CeraPro-Regular.woff2) format(woff2),
+ url(./font/CeraPro-Bold.woff2) format(woff2);
+}
 
+body{
+  font-family: "Cera Pro";
+}
 
-.top-panel-login{
+.button-login{
   color: #3d3d3d;
   font-size: 20px;
   font-style: normal;
-  margin: 40px;
+  font-family: "Cera Pro";
 }
 
-.top-panel-Reg{
-  color: #46A358;
+.button-reg{
+  color:#46A358;
   font-size: 20px;
   font-style: normal;
-}
-
-.upper-registration{
-  color: #3d3d3d;
-  font-size: 18px;
-  font-style: normal;
+  font-family: "Cera Pro";
 }
 
 .navigation-before-registration{
-  color: #3d3d3d;
+  color: #3D3D3D;
+  font-family: "Cera Pro";
   font-size: 13px;
   font-style: normal;
-  margin-bottom: 14px;
 }
 
-.registration-fields{
-  color: #a5a5a5;
-  font-size: 14px;
-  font-style: normal;
-  margin-bottom: 41px;
+.input-register{
+color: #A5A5A5;
+font-family: "Cera Pro";
+font-size: 14px;
+font-style: normal;
+background-color: #fff;
 }
 
 .button-registration{
-  background-color: #46A358;
-  color: #fff;
-  font-size: 16px;
-  font-style: normal;
-  margin-bottom: 36px;
+ border-radius: 5px;
+ background: #46A358;
+ color: #FFF;
+ font-family: "Cera Pro";
+ font-size: 16px;
+ font-style: normal;
 }
 
 .registration-navigator-through-google{
-  color: #3d3d3d;
-  font-size: 13px;
-  font-style: normal;
-  margin-bottom: 27px;
+ color: #3d3d3d;
+ font-family: "Cera Pro";
+ font-size: 13px;
+ font-style: normal;
 }
 
-.registration-buttons{
+.button-registration-google{
   color: #727272;
+  font-family: "Cera Pro";
   font-size: 13px;
   font-style: normal;
-  margin-bottom: 27px;
+}
+
+.button-registration-facebook{
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 13px;
+  font-style: normal;
 }
