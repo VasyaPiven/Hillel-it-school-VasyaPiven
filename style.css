@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+
+h1{
+    color:red;
+    font-size: 48px;
+}
+.blue{
+    color: blue;
+}
+.front-28{
+    font-size: 28px;
+}
+
+#uniq{
+   text-align: right; 
+}
+
+[type="text"]
+{border: 1px black;}
+
+h1.front-28{
+    text-transform: uppercase;
+}
+
+h1.front-28, p, input {
+    background-color: aqua;
+}
+
+div p{
+    font-size: 72px;
+}
+
+div > p{
+    font-size: 148px;
+}
+
+h1:hover{
+    background-color: chartreuse;
+}
+
+input:focus{
+    background-color: red;
+}
+
+a :visited{
+    color: yellow;
+}
+
+*{
+    /* weight-0 */
+}
+
+p{
+   /* 0001 */
+}
+
+.class{
+   /* 0010 */
+}
+
+#id{
+   /* 0100 */
+}
+
+/* inline style -1000 */
+
+.cd{
+    /* font-size: 52px; !important; 10000 */
+}
+
+
