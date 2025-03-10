@@ -1,0 +1,279 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'Cera Pro Regular';
+  src: url(../CeraPro/CeraPro-Regular.eot) format(eot),
+  url(../CeraPro/CeraPro-Regular.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Regular.woff)format(woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Cera Pro Medium';
+  src: url(../CeraPro/CeraPro-Medium.eot) format(eot),
+  url(../CeraPro/CeraPro-Medium.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Medium.woff)format(woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family:'Cera Pro Bold';
+  src: url(../CeraPro/CeraPro-Bold.eot) format(eot),
+  url(../CeraPro/CeraPro-Bold.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Bold.woff)format(woff);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:'Cera Pro Black';
+  src: url(../CeraPro/CeraPro-Black.eot) format(eot),
+  url(../CeraPro/CeraPro-Black.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Black.woff)format(woff);
+  font-weight: 900;
+}
+
+body{
+ 
+}
+
+main{
+  
+}
+
+
+.container{
+  justify-items: center;
+  
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-login{
+  color: #3D3D3D;
+  font-family: "Cera Pro Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.button-reg{
+  color: #46A358;
+  font-family: "Cera Pro Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+
+.block-register{
+  display: block;
+  padding: 52px 0px 40px 0px;
+}
+
+.navigation-before-registration{
+  color: #3D3D3D;
+  font-family: "Cera Pro Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  display:block;
+  padding-bottom:9px;
+}
+
+input{
+  padding: 12px 14px;
+  color: #A5A5A5;
+  font-family: "Cera Pro Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 16px;
+  width: 300px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.ace{
+  border: 0px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.ace-pass{
+  padding: 0;
+  border: 0px;
+  background: none;
+}
+
+.User{
+
+}
+
+.Email{
+
+}
+
+.pass{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #EAEAEA;
+  align-items: center;
+  width: 300px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.password{
+
+}
+
+
+.email-pass{
+  display: block;
+  padding-bottom: 41px;
+
+}
+
+.button-regis{
+  color: #FFF;
+  font-family: "Cera Pro Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  display: block;
+  padding: 16px 118px 13px 119px;
+  border-radius: 5px;
+  background: #46A358;
+  border: 0px;
+}
+
+.button-registration{
+  display: block;
+  padding-bottom: 36px;
+}
+
+.registration-navigator-through-google{
+  content: "";
+  height: 2px;
+  background-color: #3D3D3D;
+  display: block;
+}
+
+.Or{
+  padding-bottom: 27px;
+  color: #3D3D3D;
+  font-family: "Cera Pro Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.button-registration-google{
+  padding-bottom: 28px;
+  
+}
+
+.button-registration-facebook{
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  
+  
+  
+}
+
+.Facebook{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 11px 59px 9px 78px;
+  background-color: #FFF;
+  color: #727272;
+  text-align: center;
+  font-family: "Cera Pro Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+
+.Google{
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  padding: 11px 64px 9px 88px;
+  background-color: #FFF;
+  color: #727272;
+  text-align: center;
+  font-family: "Cera Pro Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  
+}
+
