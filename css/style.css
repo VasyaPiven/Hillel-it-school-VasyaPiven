@@ -76,7 +76,6 @@ table {
 
 header{
   padding: 30px 120px;
-  margin-bottom: 12px;
 }
 
 .header{
@@ -209,6 +208,6 @@ main{
   text-transform: uppercase;
   border-radius: 6px;
   background: #46A358;
-  border: none;
+  border: none; 
 }
 
