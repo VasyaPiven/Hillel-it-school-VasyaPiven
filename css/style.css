@@ -149,7 +149,7 @@ main{
 
 .above-the-title{
   display: inline-block;
-  padding: 68px 0px 0px 43px;
+  margin:68px 0px 7px 43px;
   color: #3D3D3D;
   font-family: "Cera Pro Medium";
   font-size: 14px;
@@ -162,7 +162,7 @@ main{
 
 .main-text{
   display: inline-block;
-  padding: 0px 122px 0px 40px;
+  margin: 0px 0px 5px 40px;
   color: #3D3D3D;
   font-family: "Cera Pro Black";
   font-size: 70px;
@@ -184,7 +184,7 @@ main{
 
 .under-the-text{
   display: inline-block;
-  padding: 5px 160px 44px 43px;
+  margin: 0px 0px 44px 43px;
   color: #727272;
   font-family: "Cera Pro Regular";
   font-size: 14px;
@@ -209,3 +209,6 @@ main{
   border: none; 
 }
 
+.vase{
+  margin-left: 122px;
+}
