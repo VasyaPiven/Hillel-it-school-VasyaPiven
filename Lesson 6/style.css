@@ -1,0 +1,29 @@
+span{
+    display: inline;
+    padding: 20px;
+    border: 3px dashed #000;
+    margin: 20px;
+}
+
+p{
+    border: 3px dashed #000;
+    margin: 20px;
+}
+
+div{
+    background-color: green;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+    /* padding: 20px; */
+    margin: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 20px; /*20px top left right bottom*/
+    padding: 20px 10px; /*20px top bottom/ 10px right left*/
+    padding: 20px 10px 15px; /*20px top/10-left right/15- bottom*/
+    padding: 20px 10px 15px 10px; /*20px top/ 10-px left/10px- right/15px- bottom*/
+
+    margin: 0 auto;
+
+}

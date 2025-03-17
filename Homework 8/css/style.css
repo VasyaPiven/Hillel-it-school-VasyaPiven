@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family:'Cera Pro Regular';
+  src: url(../CeraPro/CeraPro-Regular.eot) format(eot),
+  url(../CeraPro/CeraPro-Regular.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Regular.woff)format(woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Cera Pro Medium';
+  src: url(../CeraPro/CeraPro-Medium.eot) format(eot),
+  url(../CeraPro/CeraPro-Medium.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Medium.woff)format(woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family:'Cera Pro Bold';
+  src: url(../CeraPro/CeraPro-Bold.eot) format(eot),
+  url(../CeraPro/CeraPro-Bold.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Bold.woff)format(woff);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:'Cera Pro Black';
+  src: url(../CeraPro/CeraPro-Black.eot) format(eot),
+  url(../CeraPro/CeraPro-Black.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Black.woff)format(woff);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family:'Cera Pro Light';
+  src: url(../CeraPro/CeraPro-Light.eot) format(eot),
+  url(../CeraPro/CeraPro-Light.ttf) format(Truetype),
+  url(../CeraPro/CeraPro-Light.woff)format(woff);
+  font-weight: 300;
+}
+
+
+main{
+    display:flex;
+    padding: 69px 119px 68px 119px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 138px;
+}
+
+.main__header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 44px;
+}
+
+
+.description{
+    color: #727272;
+    font-family: "Cera Pro Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
